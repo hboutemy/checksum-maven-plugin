@@ -50,4 +50,12 @@
       </pluginRepositories>
     </profile>
   </profiles>
+  <mirrors>
+    <mirror><!-- required by Maven < 3.2.3 -->
+      <id>central</id>
+      <name>central</name>
+      <url>https://repo.maven.apache.org/maven2/</url><!-- HTTPS required -->
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
 </settings>
